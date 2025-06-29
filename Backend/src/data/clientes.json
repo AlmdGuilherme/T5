@@ -1,0 +1,1940 @@
+[
+  {
+    "cli_nome": "Ana",
+    "cli_sobreNome": "Silva",
+    "cli_cpf": "789.012.345-67",
+    "cpf_date": "1990-01-15T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-1",
+        "rg_date": "2010-01-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "11",
+        "tel_num": "987654321"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "ana.silva@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte de Cabelo",
+        "serv_value": "50.00"
+      },
+      {
+        "serv_name": "Hidratação Capilar",
+        "serv_value": "60.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Shampoo Anti-queda",
+        "prod_value": "45.00"
+      },
+      {
+        "prod_name": "Condicionador",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "São Paulo",
+      "end_rua": "Rua das Rosas",
+      "end_bairro": "Jardins",
+      "end_numero": "100"
+    }
+  },
+  {
+    "cli_nome": "Bruno",
+    "cli_sobreNome": "Souza",
+    "cli_cpf": "654.321.098-76",
+    "cpf_date": "1985-03-20T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-2",
+        "rg_date": "2008-05-10T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "21",
+        "tel_num": "976543210"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "bruno.souza@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Barba",
+        "serv_value": "30.00"
+      },
+      {
+        "serv_name": "Corte de Cabelo",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Gel Fixador",
+        "prod_value": "25.00"
+      },
+      {
+        "prod_name": "Shampoo Anti-queda",
+        "prod_value": "45.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RJ",
+      "end_cidade": "Rio de Janeiro",
+      "end_rua": "Avenida Atlântica",
+      "end_bairro": "Copacabana",
+      "end_numero": "500"
+    }
+  },
+  {
+    "cli_nome": "Carla",
+    "cli_sobreNome": "Ferreira",
+    "cli_cpf": "123.456.789-01",
+    "cpf_date": "1992-07-05T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-3",
+        "rg_date": "2012-03-20T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "31",
+        "tel_num": "965432109"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "carla.ferreira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Manicure",
+        "serv_value": "40.00"
+      },
+      {
+        "serv_name": "Pedicure",
+        "serv_value": "40.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Esmalte",
+        "prod_value": "15.00"
+      },
+      {
+        "prod_name": "Creme Hidratante",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "MG",
+      "end_cidade": "Belo Horizonte",
+      "end_rua": "Rua da Paz",
+      "end_bairro": "Lourdes",
+      "end_numero": "20"
+    }
+  },
+  {
+    "cli_nome": "Daniel",
+    "cli_sobreNome": "Gomes",
+    "cli_cpf": "987.654.321-09",
+    "cpf_date": "1978-09-10T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-4",
+        "rg_date": "2003-07-15T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "41",
+        "tel_num": "954321098"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "daniel.gomes@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Pedicure",
+        "serv_value": "40.00"
+      },
+      {
+        "serv_name": "Massagem Relaxante",
+        "serv_value": "80.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Creme Hidratante",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Óleo Essencial",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "PR",
+      "end_cidade": "Curitiba",
+      "end_rua": "Rua das Araucárias",
+      "end_bairro": "Centro Cívico",
+      "end_numero": "300"
+    }
+  },
+  {
+    "cli_nome": "Eduarda",
+    "cli_sobreNome": "Lima",
+    "cli_cpf": "456.789.012-34",
+    "cpf_date": "1998-02-25T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-5",
+        "rg_date": "2018-09-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "51",
+        "tel_num": "943210987"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "eduarda.lima@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Progressiva",
+        "serv_value": "200.00"
+      },
+      {
+        "serv_name": "Corte de Cabelo",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Protetor Térmico",
+        "prod_value": "55.00"
+      },
+      {
+        "prod_name": "Shampoo Anti-queda",
+        "prod_value": "45.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RS",
+      "end_cidade": "Porto Alegre",
+      "end_rua": "Avenida Protásio Alves",
+      "end_bairro": "Petrópolis",
+      "end_numero": "700"
+    }
+  },
+  {
+    "cli_nome": "Felipe",
+    "cli_sobreNome": "Martins",
+    "cli_cpf": "321.098.765-43",
+    "cpf_date": "1983-04-01T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-6",
+        "rg_date": "2006-11-20T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "61",
+        "tel_num": "932109876"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "felipe.martins@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Coloração",
+        "serv_value": "120.00"
+      },
+      {
+        "serv_name": "Corte de Cabelo",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Tintura Capilar",
+        "prod_value": "70.00"
+      },
+      {
+        "prod_name": "Gel Fixador",
+        "prod_value": "25.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "DF",
+      "end_cidade": "Brasília",
+      "end_rua": "SQS 200 Sul",
+      "end_bairro": "Asa Sul",
+      "end_numero": "201"
+    }
+  },
+  {
+    "cli_nome": "Gabriela",
+    "cli_sobreNome": "Nunes",
+    "cli_cpf": "012.345.678-90",
+    "cpf_date": "1993-06-18T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-7",
+        "rg_date": "2014-02-14T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "71",
+        "tel_num": "921098765"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "gabriela.nunes@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Design de Sobrancelhas",
+        "serv_value": "35.00"
+      },
+      {
+        "serv_name": "Manicure",
+        "serv_value": "40.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Lápis de Sobrancelha",
+        "prod_value": "20.00"
+      },
+      {
+        "prod_name": "Esmalte",
+        "prod_value": "15.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "BA",
+      "end_cidade": "Salvador",
+      "end_rua": "Rua Bahia",
+      "end_bairro": "Pituba",
+      "end_numero": "150"
+    }
+  },
+  {
+    "cli_nome": "Heitor",
+    "cli_sobreNome": "Oliveira",
+    "cli_cpf": "109.876.543-21",
+    "cpf_date": "1988-11-30T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-8",
+        "rg_date": "2009-08-25T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "81",
+        "tel_num": "910987654"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "heitor.oliveira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Masculino",
+        "serv_value": "45.00"
+      },
+      {
+        "serv_name": "Limpeza de Pele",
+        "serv_value": "70.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Loção Pós-Barba",
+        "prod_value": "35.00"
+      },
+      {
+        "prod_name": "Protetor Solar Facial",
+        "prod_value": "60.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "PE",
+      "end_cidade": "Recife",
+      "end_rua": "Avenida Boa Viagem",
+      "end_bairro": "Boa Viagem",
+      "end_numero": "1000"
+    }
+  },
+  {
+    "cli_nome": "Isabela",
+    "cli_sobreNome": "Pereira",
+    "cli_cpf": "210.987.654-32",
+    "cpf_date": "1995-09-12T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-9",
+        "rg_date": "2015-04-05T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "91",
+        "tel_num": "998765432"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "isabela.pereira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Unhas de Gel",
+        "serv_value": "90.00"
+      },
+      {
+        "serv_name": "Massagem Modeladora",
+        "serv_value": "100.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Base para Unhas",
+        "prod_value": "20.00"
+      },
+      {
+        "prod_name": "Creme Redutor",
+        "prod_value": "80.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "PA",
+      "end_cidade": "Belém",
+      "end_rua": "Avenida Nazaré",
+      "end_bairro": "Nazaré",
+      "end_numero": "250"
+    }
+  },
+  {
+    "cli_nome": "João",
+    "cli_sobreNome": "Queiroz",
+    "cli_cpf": "321.098.765-43",
+    "cpf_date": "1980-12-01T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-10",
+        "rg_date": "2005-01-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "62",
+        "tel_num": "987654321"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "joao.queiroz@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte de Cabelo e Barba",
+        "serv_value": "70.00"
+      },
+      {
+        "serv_name": "Tratamento Capilar Masculino",
+        "serv_value": "65.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Pomada Modeladora",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Tônico Capilar",
+        "prod_value": "50.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "GO",
+      "end_cidade": "Goiânia",
+      "end_rua": "Avenida 85",
+      "end_bairro": "Setor Marista",
+      "end_numero": "850"
+    }
+  },
+  {
+    "cli_nome": "Karen",
+    "cli_sobreNome": "Rocha",
+    "cli_cpf": "432.109.876-54",
+    "cpf_date": "1991-03-08T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-11",
+        "rg_date": "2011-06-12T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "27",
+        "tel_num": "976543210"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "karen.rocha@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Escova Progressiva",
+        "serv_value": "180.00"
+      },
+      {
+        "serv_name": "Coloração de Raiz",
+        "serv_value": "90.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Máscara de Hidratação",
+        "prod_value": "65.00"
+      },
+      {
+        "prod_name": "Protetor Térmico",
+        "prod_value": "55.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "ES",
+      "end_cidade": "Vitória",
+      "end_rua": "Rua da Lama",
+      "end_bairro": "Jardim da Penha",
+      "end_numero": "75"
+    }
+  },
+  {
+    "cli_nome": "Lucas",
+    "cli_sobreNome": "Santos",
+    "cli_cpf": "543.210.987-65",
+    "cpf_date": "1987-05-19T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-12",
+        "rg_date": "2007-02-28T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "19",
+        "tel_num": "965432109"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "lucas.santos@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Clássico",
+        "serv_value": "40.00"
+      },
+      {
+        "serv_name": "Massagem Facial",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Gel para Barbear",
+        "prod_value": "20.00"
+      },
+      {
+        "prod_name": "Creme Facial Masculino",
+        "prod_value": "45.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Campinas",
+      "end_rua": "Avenida Brasil",
+      "end_bairro": "Cambui",
+      "end_numero": "1234"
+    }
+  },
+  {
+    "cli_nome": "Mariana",
+    "cli_sobreNome": "Teixeira",
+    "cli_cpf": "678.901.234-56",
+    "cpf_date": "1996-01-22T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-13",
+        "rg_date": "2016-03-10T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "47",
+        "tel_num": "954321098"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "mariana.teixeira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Alongamento de Cílios",
+        "serv_value": "150.00"
+      },
+      {
+        "serv_name": "Limpeza de Pele Profunda",
+        "serv_value": "90.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Sérum Facial",
+        "prod_value": "75.00"
+      },
+      {
+        "prod_name": "Demaquilante Bifásico",
+        "prod_value": "35.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SC",
+      "end_cidade": "Florianópolis",
+      "end_rua": "Rodovia SC-401",
+      "end_bairro": "Jurerê Internacional",
+      "end_numero": "2000"
+    }
+  },
+  {
+    "cli_nome": "Natalia",
+    "cli_sobreNome": "Vasconcelos",
+    "cli_cpf": "789.012.345-68",
+    "cpf_date": "1994-11-05T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-14",
+        "rg_date": "2014-07-22T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "85",
+        "tel_num": "943210987"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "natalia.vasconcelos@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Tratamento para Acne",
+        "serv_value": "110.00"
+      },
+      {
+        "serv_name": "Peeling Químico",
+        "serv_value": "130.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Sabonete Líquido Facial",
+        "prod_value": "40.00"
+      },
+      {
+        "prod_name": "Protetor Solar Facial",
+        "prod_value": "60.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "CE",
+      "end_cidade": "Fortaleza",
+      "end_rua": "Avenida Beira Mar",
+      "end_bairro": "Meireles",
+      "end_numero": "3000"
+    }
+  },
+  {
+    "cli_nome": "Otávio",
+    "cli_sobreNome": "Werner",
+    "cli_cpf": "890.123.456-79",
+    "cpf_date": "1982-08-14T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-15",
+        "rg_date": "2002-09-09T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "67",
+        "tel_num": "932109876"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "otavio.werner@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Design de Barba",
+        "serv_value": "40.00"
+      },
+      {
+        "serv_name": "Esfoliação Facial",
+        "serv_value": "55.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Óleo para Barba",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Creme Esfoliante",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "MS",
+      "end_cidade": "Campo Grande",
+      "end_rua": "Rua Afonso Pena",
+      "end_bairro": "Amambaí",
+      "end_numero": "123"
+    }
+  },
+  {
+    "cli_nome": "Patrícia",
+    "cli_sobreNome": "Xavier",
+    "cli_cpf": "901.234.567-80",
+    "cpf_date": "1997-04-29T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-16",
+        "rg_date": "2017-01-18T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "92",
+        "tel_num": "921098765"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "patricia.xavier@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Hidratação de Cabelos Coloridos",
+        "serv_value": "70.00"
+      },
+      {
+        "serv_name": "Penteado para Festas",
+        "serv_value": "85.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Máscara para Cabelos Coloridos",
+        "prod_value": "60.00"
+      },
+      {
+        "prod_name": "Spray Fixador",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "AM",
+      "end_cidade": "Manaus",
+      "end_rua": "Avenida Ephigênio Salles",
+      "end_bairro": "Adrianópolis",
+      "end_numero": "456"
+    }
+  },
+  {
+    "cli_nome": "Rafael",
+    "cli_sobreNome": "Yago",
+    "cli_cpf": "012.345.678-91",
+    "cpf_date": "1989-10-03T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-17",
+        "rg_date": "2009-05-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "63",
+        "tel_num": "910987654"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "rafael.yago@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Podologia",
+        "serv_value": "70.00"
+      },
+      {
+        "serv_name": "Reflexologia Podal",
+        "serv_value": "60.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Creme para Pés",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Óleo Essencial para Pés",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "TO",
+      "end_cidade": "Palmas",
+      "end_rua": "Avenida JK",
+      "end_bairro": "Plano Diretor Sul",
+      "end_numero": "789"
+    }
+  },
+  {
+    "cli_nome": "Sabrina",
+    "cli_sobreNome": "Zacarias",
+    "cli_cpf": "123.456.789-02",
+    "cpf_date": "1990-07-11T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-18",
+        "rg_date": "2010-09-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "65",
+        "tel_num": "998765432"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "sabrina.zacarias@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Depilação a Laser",
+        "serv_value": "250.00"
+      },
+      {
+        "serv_name": "Tratamento para Estrias",
+        "serv_value": "180.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Loção Pós-depilação",
+        "prod_value": "50.00"
+      },
+      {
+        "prod_name": "Óleo para Estrias",
+        "prod_value": "70.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "MT",
+      "end_cidade": "Cuiabá",
+      "end_rua": "Avenida do CPA",
+      "end_bairro": "Jardim Cuiabá",
+      "end_numero": "100"
+    }
+  },
+  {
+    "cli_nome": "Thiago",
+    "cli_sobreNome": "Almeida",
+    "cli_cpf": "234.567.890-13",
+    "cpf_date": "1986-02-08T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-19",
+        "rg_date": "2006-04-10T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "84",
+        "tel_num": "987654321"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "thiago.almeida@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Massagem Terapêutica",
+        "serv_value": "90.00"
+      },
+      {
+        "serv_name": "Ventosa Terapia",
+        "serv_value": "80.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Óleo para Massagem",
+        "prod_value": "45.00"
+      },
+      {
+        "prod_name": "Creme Analgésico",
+        "prod_value": "55.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RN",
+      "end_cidade": "Natal",
+      "end_rua": "Avenida Roberto Freire",
+      "end_bairro": "Ponta Negra",
+      "end_numero": "200"
+    }
+  },
+  {
+    "cli_nome": "Ursula",
+    "cli_sobreNome": "Batista",
+    "cli_cpf": "345.678.901-24",
+    "cpf_date": "1993-09-01T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-20",
+        "rg_date": "2013-11-11T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "83",
+        "tel_num": "976543210"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "ursula.batista@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Bronzeamento a Jato",
+        "serv_value": "120.00"
+      },
+      {
+        "serv_name": "Drenagem Linfática",
+        "serv_value": "100.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Esfoliante Corporal",
+        "prod_value": "50.00"
+      },
+      {
+        "prod_name": "Creme Firmador",
+        "prod_value": "70.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "PB",
+      "end_cidade": "João Pessoa",
+      "end_rua": "Avenida Epitácio Pessoa",
+      "end_bairro": "Tambau",
+      "end_numero": "300"
+    }
+  },
+  {
+    "cli_nome": "Victor",
+    "cli_sobreNome": "Carvalho",
+    "cli_cpf": "456.789.012-35",
+    "cpf_date": "1981-04-17T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-21",
+        "rg_date": "2001-08-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "79",
+        "tel_num": "965432109"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "victor.carvalho@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Moderno",
+        "serv_value": "55.00"
+      },
+      {
+        "serv_name": "Pigmentação de Cabelo",
+        "serv_value": "100.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Cera Modeladora",
+        "prod_value": "35.00"
+      },
+      {
+        "prod_name": "Shampoo para Cabelos Coloridos",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SE",
+      "end_cidade": "Aracaju",
+      "end_rua": "Avenida Santos Dumont",
+      "end_bairro": "Jardins",
+      "end_numero": "400"
+    }
+  },
+  {
+    "cli_nome": "Wallace",
+    "cli_sobreNome": "Dantas",
+    "cli_cpf": "567.890.123-46",
+    "cpf_date": "1992-06-20T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-22",
+        "rg_date": "2012-09-15T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "82",
+        "tel_num": "954321098"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "wallace.dantas@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Infantil",
+        "serv_value": "30.00"
+      },
+      {
+        "serv_name": "Primeiro Corte de Cabelo",
+        "serv_value": "35.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Shampoo Infantil",
+        "prod_value": "25.00"
+      },
+      {
+        "prod_name": "Condicionador Infantil",
+        "prod_value": "25.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "AL",
+      "end_cidade": "Maceió",
+      "end_rua": "Avenida Doutor Antônio Gouveia",
+      "end_bairro": "Pajuçara",
+      "end_numero": "500"
+    }
+  },
+  {
+    "cli_nome": "Yasmin",
+    "cli_sobreNome": "Esteves",
+    "cli_cpf": "678.901.234-57",
+    "cpf_date": "1999-03-09T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-23",
+        "rg_date": "2019-01-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "98",
+        "tel_num": "943210987"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "yasmin.esteves@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Maquiagem Profissional",
+        "serv_value": "100.00"
+      },
+      {
+        "serv_name": "Curso de Automaquiagem",
+        "serv_value": "150.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Base Líquida",
+        "prod_value": "70.00"
+      },
+      {
+        "prod_name": "Kit de Pincéis",
+        "prod_value": "80.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "MA",
+      "end_cidade": "São Luís",
+      "end_rua": "Avenida dos Holandeses",
+      "end_bairro": "Calhau",
+      "end_numero": "600"
+    }
+  },
+  {
+    "cli_nome": "Zoe",
+    "cli_sobreNome": "Fernandes",
+    "cli_cpf": "789.012.345-69",
+    "cpf_date": "1991-05-23T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-24",
+        "rg_date": "2011-07-07T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "99",
+        "tel_num": "932109876"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "zoe.fernandes@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Micropigmentação Labial",
+        "serv_value": "300.00"
+      },
+      {
+        "serv_name": "Hidratação Labial",
+        "serv_value": "60.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Batom Líquido Matte",
+        "prod_value": "45.00"
+      },
+      {
+        "prod_name": "Hidratante Labial",
+        "prod_value": "25.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "PI",
+      "end_cidade": "Teresina",
+      "end_rua": "Avenida João XXIII",
+      "end_bairro": "São Cristóvão",
+      "end_numero": "700"
+    }
+  },
+  {
+    "cli_nome": "Arthur",
+    "cli_sobreNome": "Goulart",
+    "cli_cpf": "890.123.456-81",
+    "cpf_date": "1984-08-02T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-25",
+        "rg_date": "2004-10-10T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "68",
+        "tel_num": "921098765"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "arthur.goulart@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Relaxamento Capilar",
+        "serv_value": "150.00"
+      },
+      {
+        "serv_name": "Corte Degradê",
+        "serv_value": "60.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Creme Relaxante",
+        "prod_value": "80.00"
+      },
+      {
+        "prod_name": "Spray para Volume",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "AC",
+      "end_cidade": "Rio Branco",
+      "end_rua": "Via Chico Mendes",
+      "end_bairro": "Centro",
+      "end_numero": "800"
+    }
+  },
+  {
+    "cli_nome": "Beatriz",
+    "cli_sobreNome": "Hoffmann",
+    "cli_cpf": "901.234.567-82",
+    "cpf_date": "1997-12-16T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-26",
+        "rg_date": "2017-02-05T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "69",
+        "tel_num": "910987654"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "beatriz.hoffmann@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Design de Unhas Artísticas",
+        "serv_value": "70.00"
+      },
+      {
+        "serv_name": "Remoção de Calosidade",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Kit de Nail Art",
+        "prod_value": "60.00"
+      },
+      {
+        "prod_name": "Lixa Elétrica",
+        "prod_value": "120.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RO",
+      "end_cidade": "Porto Velho",
+      "end_rua": "Avenida Sete de Setembro",
+      "end_bairro": "Centro",
+      "end_numero": "900"
+    }
+  },
+  {
+    "cli_nome": "Caique",
+    "cli_sobreNome": "Ibañez",
+    "cli_cpf": "012.345.678-92",
+    "cpf_date": "1986-07-28T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-27",
+        "rg_date": "2006-03-15T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "95",
+        "tel_num": "998765432"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "caique.ibanez@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Cacheado Masculino",
+        "serv_value": "50.00"
+      },
+      {
+        "serv_name": "Tratamento para Caspa",
+        "serv_value": "70.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Ativador de Cachos",
+        "prod_value": "40.00"
+      },
+      {
+        "prod_name": "Shampoo Anticaspa",
+        "prod_value": "35.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RR",
+      "end_cidade": "Boa Vista",
+      "end_rua": "Avenida Getúlio Vargas",
+      "end_bairro": "Centro",
+      "end_numero": "1000"
+    }
+  },
+  {
+    "cli_nome": "Diana",
+    "cli_sobreNome": "Junqueira",
+    "cli_cpf": "123.456.789-03",
+    "cpf_date": "1994-04-04T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-28",
+        "rg_date": "2014-06-06T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "61",
+        "tel_num": "987654321"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "diana.junqueira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Depilação com Cera Quente",
+        "serv_value": "80.00"
+      },
+      {
+        "serv_name": "Design de Sobrancelhas com Henna",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Cera Depilatória",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Henna para Sobrancelhas",
+        "prod_value": "25.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "DF",
+      "end_cidade": "Brasília",
+      "end_rua": "Setor Comercial Sul",
+      "end_bairro": "Asa Sul",
+      "end_numero": "100"
+    }
+  },
+  {
+    "cli_nome": "Enzo",
+    "cli_sobreNome": "Klein",
+    "cli_cpf": "234.567.890-14",
+    "cpf_date": "1989-01-07T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-29",
+        "rg_date": "2009-03-03T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "53",
+        "tel_num": "976543210"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "enzo.klein@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Social",
+        "serv_value": "40.00"
+      },
+      {
+        "serv_name": "Barba Terapêutica",
+        "serv_value": "50.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Shampoo Masculino",
+        "prod_value": "30.00"
+      },
+      {
+        "prod_name": "Creme para Barbear",
+        "prod_value": "20.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RS",
+      "end_cidade": "Pelotas",
+      "end_rua": "Rua XV de Novembro",
+      "end_bairro": "Centro",
+      "end_numero": "200"
+    }
+  },
+  {
+    "cli_nome": "Flora",
+    "cli_sobreNome": "Lemos",
+    "cli_cpf": "345.678.901-25",
+    "cpf_date": "1996-02-14T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-30",
+        "rg_date": "2016-04-16T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "48",
+        "tel_num": "965432109"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "flora.lemos@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Micropigmentação de Sobrancelhas",
+        "serv_value": "400.00"
+      },
+      {
+        "serv_name": "Remoção de Micropigmentação",
+        "serv_value": "250.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Anestésico Tópico",
+        "prod_value": "50.00"
+      },
+      {
+        "prod_name": "Cicatrizante",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SC",
+      "end_cidade": "São José",
+      "end_rua": "Avenida Central",
+      "end_bairro": "Kobrasol",
+      "end_numero": "300"
+    }
+  },
+  {
+    "cli_nome": "Gustavo",
+    "cli_sobreNome": "Monteiro",
+    "cli_cpf": "456.789.012-36",
+    "cpf_date": "1983-09-21T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-31",
+        "rg_date": "2003-11-23T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "61",
+        "tel_num": "954321098"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "gustavo.monteiro@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte com Navalha",
+        "serv_value": "50.00"
+      },
+      {
+        "serv_name": "Hidratação Capilar Masculina",
+        "serv_value": "60.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Óleo para Barba",
+        "prod_value": "35.00"
+      },
+      {
+        "prod_name": "Máscara Capilar Masculina",
+        "prod_value": "50.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "DF",
+      "end_cidade": "Taguatinga",
+      "end_rua": "Comercial Norte",
+      "end_bairro": "Centro",
+      "end_numero": "400"
+    }
+  },
+  {
+    "cli_nome": "Helena",
+    "cli_sobreNome": "Nogueira",
+    "cli_cpf": "567.890.123-47",
+    "cpf_date": "1998-05-10T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-32",
+        "rg_date": "2018-07-12T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "65",
+        "tel_num": "943210987"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "helena.nogueira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Tratamento Capilar Reconstrutor",
+        "serv_value": "90.00"
+      },
+      {
+        "serv_name": "Corte Longo em Camadas",
+        "serv_value": "70.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Ampola de Reconstrução",
+        "prod_value": "45.00"
+      },
+      {
+        "prod_name": "Creme de Pentear",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "MT",
+      "end_cidade": "Várzea Grande",
+      "end_rua": "Avenida Couto Magalhães",
+      "end_bairro": "Centro",
+      "end_numero": "500"
+    }
+  },
+  {
+    "cli_nome": "Igor",
+    "cli_sobreNome": "Oliveira",
+    "cli_cpf": "777.888.999-00",
+    "cpf_date": "1987-11-20T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-33",
+        "rg_date": "2007-01-01T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "21",
+        "tel_num": "987123456"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "igor.oliveira@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Undercut",
+        "serv_value": "55.00"
+      },
+      {
+        "serv_name": "Relaxamento Capilar Masculino",
+        "serv_value": "80.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Pomada de Efeito Matte",
+        "prod_value": "40.00"
+      },
+      {
+        "prod_name": "Condicionador Masculino",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "RJ",
+      "end_cidade": "Niterói",
+      "end_rua": "Rua Marquês do Paraná",
+      "end_bairro": "Centro",
+      "end_numero": "600"
+    }
+  },
+  {
+    "cli_nome": "Joana",
+    "cli_sobreNome": "Pires",
+    "cli_cpf": "111.222.333-44",
+    "cpf_date": "1995-03-01T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-34",
+        "rg_date": "2015-05-05T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "11",
+        "tel_num": "999887766"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "joana.pires@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Limpeza de Pele Express",
+        "serv_value": "60.00"
+      },
+      {
+        "serv_name": "Drenagem Facial",
+        "serv_value": "70.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Água Micelar",
+        "prod_value": "35.00"
+      },
+      {
+        "prod_name": "Máscara Facial Hidratante",
+        "prod_value": "45.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Guarulhos",
+      "end_rua": "Avenida Tiradentes",
+      "end_bairro": "Centro",
+      "end_numero": "700"
+    }
+  },
+  {
+    "cli_nome": "Kevin",
+    "cli_sobreNome": "Quintas",
+    "cli_cpf": "222.333.444-55",
+    "cpf_date": "1980-06-12T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-35",
+        "rg_date": "2000-08-08T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "19",
+        "tel_num": "977665544"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "kevin.quintas@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Corte Terapêutico",
+        "serv_value": "65.00"
+      },
+      {
+        "serv_name": "Massagem Relaxante com Óleos Essenciais",
+        "serv_value": "90.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Shampoo Detox",
+        "prod_value": "50.00"
+      },
+      {
+        "prod_name": "Óleo Essencial de Lavanda",
+        "prod_value": "60.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Jundiaí",
+      "end_rua": "Avenida 9 de Julho",
+      "end_bairro": "Centro",
+      "end_numero": "800"
+    }
+  },
+  {
+    "cli_nome": "Laura",
+    "cli_sobreNome": "Ribeiro",
+    "cli_cpf": "333.444.555-66",
+    "cpf_date": "1997-09-03T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-36",
+        "rg_date": "2017-11-11T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "13",
+        "tel_num": "966554433"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "laura.ribeiro@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Tratamento para Pontas Duplas",
+        "serv_value": "70.00"
+      },
+      {
+        "serv_name": "Corte Bordado",
+        "serv_value": "80.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Sérum Reparador de Pontas",
+        "prod_value": "40.00"
+      },
+      {
+        "prod_name": "Leave-in Protetor",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Santos",
+      "end_rua": "Avenida Bartolomeu de Gusmão",
+      "end_bairro": "Ponta da Praia",
+      "end_numero": "900"
+    }
+  },
+  {
+    "cli_nome": "Marcelo",
+    "cli_sobreNome": "Silva",
+    "cli_cpf": "444.555.666-77",
+    "cpf_date": "1982-01-15T00:00:00.000Z",
+    "cli_gender": "Masculino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-37",
+        "rg_date": "2002-03-20T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "11",
+        "tel_num": "955443322"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "marcelo.silva@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Pintura Masculina",
+        "serv_value": "100.00"
+      },
+      {
+        "serv_name": "Hidratação de Couro Cabeludo",
+        "serv_value": "70.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Coloração Masculina",
+        "prod_value": "60.00"
+      },
+      {
+        "prod_name": "Tônico para Couro Cabeludo",
+        "prod_value": "40.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Osasco",
+      "end_rua": "Avenida dos Autonomistas",
+      "end_bairro": "Centro",
+      "end_numero": "1000"
+    }
+  },
+  {
+    "cli_nome": "Nicole",
+    "cli_sobreNome": "Torres",
+    "cli_cpf": "555.666.777-88",
+    "cpf_date": "1994-07-22T00:00:00.000Z",
+    "cli_gender": "Feminino",
+    "rgs": [
+      {
+        "rg_value": "11.111.111-38",
+        "rg_date": "2014-09-25T00:00:00.000Z"
+      }
+    ],
+    "telefones": [
+      {
+        "tel_ddd": "15",
+        "tel_num": "944332211"
+      }
+    ],
+    "emails": [
+      {
+        "email_value": "nicole.torres@example.com"
+      }
+    ],
+    "servicos": [
+      {
+        "serv_name": "Spa dos Pés",
+        "serv_value": "85.00"
+      },
+      {
+        "serv_name": "Massagem Relaxante nos Pés",
+        "serv_value": "65.00"
+      }
+    ],
+    "produtos": [
+      {
+        "prod_name": "Sais para Escalda-pés",
+        "prod_value": "25.00"
+      },
+      {
+        "prod_name": "Loção Hidratante para Pés",
+        "prod_value": "30.00"
+      }
+    ],
+    "endereco": {
+      "end_estado": "SP",
+      "end_cidade": "Sorocaba",
+      "end_rua": "Avenida Barão de Tatuí",
+      "end_bairro": "Jardim Paulistano",
+      "end_numero": "1100"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+
+.navbar > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar > ul{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar > ul > a{
+  text-decoration: none;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  border: none;
+  transition: .5s;
+  padding: .5rem 1rem;
+}
+
+.desativado {
+  color: #fff;
+}
+
+.navbar > ul >a:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border-radius: 5rem;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: .5rem;
+}

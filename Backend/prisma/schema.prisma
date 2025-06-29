@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Clientes {
+  cli_id Int @id @unique @default(autoincrement()) @map("cli_id")
+  cli_nome String @map("cli_nome") @db.VarChar(255)
+  cli_sobreNome String  @map("cli_sobreNome") @db.VarChar(255)
+  cli_cpf String @unique @map("cli_cpf") @db.VarChar(20)
+  cpf_date DateTime @map("cpf_date") @db.Date
+  cli_gender String @map("cli_gender") @db.VarChar(20)
+
+
+  endereco Endereco?
+  rgs RG[]
+  telefones Telefone[]
+  emails Email[]
+  servicos Servico[]
+  produtos Produto[]
+
+  @@map("Clientes")
+}
+
+model Endereco{
+  end_id Int @unique @id @default(autoincrement()) @map("end_id")
+  cli_id Int @unique @map("cli_id")
+  end_estado String @map("end_estado") @db.VarChar(10)
+  end_cidade String @map("end_cidade") @db.VarChar(255)
+  end_rua String @map("end_rua") @db.VarChar(255)
+  end_bairro String @map("end_bairro") @db.VarChar(255)
+  end_numero String @map("end_numero") @db.VarChar(10)
+
+  cliente Clientes? @relation(fields: [cli_id], references: [cli_id])
+  @@map("Endereco")
+}
+
+model RG{
+  rg_id Int @unique @default(autoincrement()) @map("rg_id")
+  cli_id Int @map("cli_id")
+  rg_Value String @unique @map("rg_value") @db.VarChar(30)
+  rg_date DateTime @map("rg_date") @db.Date
+
+  cliente Clientes @relation(fields: [cli_id], references: [cli_id])
+  @@id([rg_id, cli_id])
+  @@map("RG")
+}
+
+model Telefone{
+  tel_id Int @unique @default(autoincrement()) @map("tel_id")
+  cli_id Int @map("cli_id")
+  tel_ddd String @map("tel_ddd") @db.VarChar(2)
+  tel_num String @map("tel_num") @db.VarChar(15)
+
+  cliente Clientes @relation(fields: [cli_id], references: [cli_id])
+  @@id([tel_id, cli_id])
+  @@map("Telefone")
+}
+
+model Email{
+  email_id Int @unique @default(autoincrement()) @map("email_id")
+  cli_id Int @map("cli_id")
+  email_value String @unique @map("email_value") @db.VarChar(255)
+
+  cliente Clientes @relation(fields: [cli_id], references: [cli_id])
+  @@id([email_id, cli_id])
+  @@map("Email")
+}
+
+model Servico {
+  serv_id Int @unique @default(autoincrement()) @map("serv_id")
+  cli_id Int @map("cli_id")
+  serv_name String @map("serv_name") @db.VarChar(255)
+  serv_value String @map("serv_value") @db.VarChar(10)
+
+  cliente Clientes @relation(fields: [cli_id], references: [cli_id])
+  @@id([serv_id, cli_id])
+  @@map("Servico")
+}
+
+model Produto{
+  prod_id Int @unique @default(autoincrement()) @map("prod_id")
+  cli_id Int @map("cli_id")
+  prod_name String @map("prod_name") @db.VarChar(255)
+  prod_value String @map("prod_value") @db.VarChar(10)
+
+  cliente Clientes @relation(fields: [cli_id], references: [cli_id])
+  @@id([prod_id, cli_id])
+  @@map("Produto")
+}

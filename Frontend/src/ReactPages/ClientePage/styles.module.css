@@ -1,0 +1,130 @@
+.client_main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 0;
+  gap: 2rem;
+}
+
+.client_main > a{
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  transition: .5s;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-weight: 700;
+  align-self: baseline;
+  margin-left: 1rem;
+}
+
+.client_main > a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.client_infos{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.infos_group{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.individual_infos{
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+  width: 13rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.individual_infos > label {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.individual_infos > p {
+  color: rgba(255, 255, 255, 0.7) ;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: block;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.individual_infos:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px 5px #000;
+}
+
+.consumed_infos{
+  width: 80%;
+  border-collapse: collapse; 
+  margin: 20px 0; 
+  font-family: Arial, sans-serif; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #2b2b2b; 
+  color: #e0e0e0; 
+  border: 2px solid #555;
+}
+
+.consumed_infos thead{
+  background-color: #3a3a3a;
+}
+
+.consumed_infos th {
+  padding: .7rem .95rem; 
+  text-align: left; 
+  border: 2px solid #555; 
+  color: #f0f0f0; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5px; 
+}
+
+.consumed_infos tbody tr {
+  border: 1px solid #444; 
+  transition: background-color 0.3s ease; 
+}
+
+.consumed_infos tbody tr td{
+  border: 1px solid #3a3a3a;
+}
+
+.consumed_infos tbody tr:nth-child(even) {
+  background-color: #333;
+}
+
+.consumed_infos  tbody tr:hover {
+  background-color: #4c4c4c; 
+  cursor: pointer; 
+}
+
+.consumed_infos  td {
+  padding: 10px 15px; 
+  text-align: left;
+}
+
+@media screen and (max-width: 510px) {
+  .client_infos{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infos_group{
+    justify-content: center;
+  }
+}

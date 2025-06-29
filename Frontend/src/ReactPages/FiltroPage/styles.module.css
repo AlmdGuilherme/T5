@@ -1,0 +1,103 @@
+.filtro_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 0;
+  gap: 2rem;
+}
+
+.buttonsFilter{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0 1rem;
+}
+
+.buttonsFilter > button {
+  padding: .3rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  transition: .5s;
+}
+
+.buttonsFilter > button:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.filterOptions{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.filterOptions > select{
+  background-color: rgba(35, 35, 35, 0.874);
+  padding: .5rem;
+  border-radius: .5rem;
+  font-size: .9rem;
+  width: 70%;
+}
+
+
+.informations {
+  width: 80%;
+  border-collapse: collapse; 
+  margin: 20px 0; 
+  font-family: Arial, sans-serif; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #2b2b2b; 
+  color: #e0e0e0; 
+  border: 2px solid #555; 
+}
+
+.informations thead {
+  background-color: #3a3a3a;
+}
+
+.informations th {
+  padding: .7rem .95rem; 
+  text-align: left; 
+  border: 2px solid #555; 
+  color: #f0f0f0; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5px; 
+}
+
+.informations tbody tr {
+  border: 1px solid #444; 
+  transition: background-color 0.3s ease; 
+}
+
+.informations tbody tr td{
+  border: 1px solid #3a3a3a;
+}
+
+.informations tbody tr:nth-child(even) {
+  background-color: #333;
+}
+
+.informations tbody tr:hover {
+  background-color: #4c4c4c; 
+  cursor: pointer; 
+}
+
+.informations td {
+  padding: 10px 15px; 
+  text-align: left;
+}
