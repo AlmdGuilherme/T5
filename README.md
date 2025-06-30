@@ -1,5 +1,7 @@
 Projeto WB:
+
 Frontend desenvolvido com React, Typescript e CSS
+
 Backend desenvolvido com Typescript e express
 
 Como rodar o Frontend?
