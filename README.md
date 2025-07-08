@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Como rodar o projeto
 
 ## Node Version
